@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
-  get 'ccsf_rails/index'
+  root 'static_pages#home'
 
-  get 'ccsf_rails/links'
+  get 'static_pages/help'
 
-  get 'ccsf_rails/about'
+  get 'static_pages/about'
 
   #root 'static_pages#index'
   # The priority is based upon order of creation: first created -> highest priority.
